@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head class="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLE CSS MAIN -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- SCROLL-REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Portfólio</title>
+</head>
+
+<body class="body">
+
+    <!-- BARRA DE NAVEGAÇÃO PARA DESKTOP -->
+    <nav class="nav-desktop nav-light">
+
+        <div class="nav-left"></div>
+
+        <div class="nav-right">
+            <div onclick="modedarK()" class="mode-dark-light">
+                <img class="icon-dark" src="./assets/image/icon/lua.png">
+                <img class="icon-light" src="./assets/image/icon/sol.png">
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <!-- BARRA DE NAVEGAÇÃO PARA MOBILE -->
+
+
+    <nav class="nav-mobile nav-light-mobile">
+        <div class="head-nav-mobile">
+            <div onclick="modedarK()" class="mode-dark-light-mobile">
+                <img class="icon-dark-mobile" src="./assets/image/icon/lua.png">
+                <img class="icon-light-mobile" src="./assets/image/icon/sol.png">
+            </div>
+            <div class="toggle-nav-mobile">
+                <img class="openMenu-img" src="./assets/image/icon/add.png">
+                <img class="closeMenu-img" src="./assets/image/icon/close.png">
+            </div>
+        </div>
+
+        <div class="body-nav-mobile">
+
+            <a href="#sobre">
+                <div class="range-mobile nav-sobre">
+                    <img src="./assets/image/icon/profile.png">
+                    <span class="sobre-mobile">sobre</span>
+                </div>
+            </a>
+
+            <a href="#skill">
+                <div class="range-mobile nav-skill">
+                    <img src="./assets/image/icon/skill.png">
+                    <span class="skill-mobile">skills</span>
+                </div>
+            </a>
+
+            <a href="#projetos">
+                <div class="range-mobile nav-projetos">
+                    <img src="./assets/image/icon/projetos.png">
+                    <span class="projetos-mobile">projetos</span>
+                </div>
+            </a>
+
+            <a href="#contato">
+                <div class="range-mobile nav-contato">
+                    <img src="./assets/image/icon/contato.png">
+                    <span class="contato-mobile">contato</span>
+                </div>
+            </a>
+
+        </div>
+
+
+    </nav>
+
+
+
+
+    <main>
+
+        <a href="#sobre">
+            <div class="pageUp">
+                <img src="./assets/image/icon/UpPage.png">
+            </div>
+        </a>
+
+        <section id="sobre">
+            <div class="img-perfil">
+                <img src="./assets/image/perfil/foto.png">
+            </div>
+            <div class="info-sobre">
+                <div class="info-folks">
+                    <h1>Olá, eu sou Vinicios!</h1>
+                    <p>
+                        Sou desenvolvedor web, tenho alguns projetos
+                        utilizando tanto front quanto back. Além disso estudo
+                        Engenharia da Computação na instituição
+                        PUC GOIÁS.
+                    </p>
+                </div>
+                <div class="networks-sobre">
+                    <a href="https://www.linkedin.com/in/vinicios-barbosa-83b342243/"><img
+                            src="./assets/image/icon/sobre/linkedin.png"></a>
+                    <a href="https://github.com/Vini-io"><img src="./assets/image/icon/sobre/github.png"></a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="skill">
+
+            <div class="titles">
+                <h1>Skills</h1>
+                <p>Meu nível técnico</p>
+            </div>
+
+            <div class="container-skills">
+
+                <div>
+                    <div class="skill-frontEnd all-skill" data-bs-toggle="collapse" href="#collapseFrontEnd"
+                        aria-expanded="false" aria-controls="collapseFrontEnd">
+                        <img class="skill-img" src="./assets/image/icon/skills/front-end.png">
+                        <span class="skill-name">Front-end</span>
+                        <img class="arrow-front all-arrow" src="./assets/image/icon/skills/Arrow.png">
+                    </div>
+
+                    <div class="collapse" id="collapseFrontEnd">
+                        <div class="techs-front">
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>JavaScript</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-javascript"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>Html-5</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-html"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>Css-3</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-css"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>React-Js</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-react"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>BootStrap</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-bootstrap"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>JQuery</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-jquery"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="skill-backEnd all-skill" data-bs-toggle="collapse" href="#collapseBackEnd"
+                        aria-expanded="false" aria-controls="collapseBackEnd">
+                        <img class="skill-img" src="./assets/image/icon/skills/server.png">
+                        <span class="skill-name">Back-end</span>
+                        <img class="arrow-back all-arrow" src="./assets/image/icon/skills/Arrow.png">
+                    </div>
+
+                    <div class="collapse" id="collapseBackEnd">
+                        <div class="techs-front">
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>FireBase</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-firebase"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>Node-Js</span>
+                                    <span>45%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-nodejs"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>Mongo-DB</span>
+                                    <span>0%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-mongodb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div class="skill-design all-skill" data-bs-toggle="collapse" href="#collapseDesign"
+                        aria-expanded="false" aria-controls="collapseDesign">
+                        <img class="skill-img" src="./assets/image/icon/skills/design.png">
+                        <span class="skill-name">Design</span>
+                        <img class="arrow-design all-arrow" src="./assets/image/icon/skills/Arrow.png">
+                    </div>
+
+
+                    <div class="collapse" id="collapseDesign">
+                        <div class="techs-front">
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>Figma</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-figma"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>Photoshop</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-photoshop"></div>
+                                </div>
+                            </div>
+
+                            <div class="tech">
+                                <div class="tech-text">
+                                    <span>After effects</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="loader">
+                                    <div class="load-aftereffects "></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section id="projetos">
+
+            <div class="titles">
+                <h1>Projetos</h1>
+                <p>Esses são meus projetos</p>
+            </div>
+
+            <div class="container-projeto">
+                <div class="projeto">
+                    <img src="./assets/image/icon/projetos/burger.png">
+                    <span>Comida Aqui</span>
+                    <div class="projeto-button btn-comidaAqui" data-bs-toggle="collapse" href="#collapseComidaAqui"
+                        aria-expanded="false" aria-controls="collapseComidaAqui">
+                        <div class="projeto-info-comidaAqui">Info</div>
+                        <img class="projeto-img-comidaAqui" src="./assets/image/icon/close.png">
+                    </div>
+                </div>
+
+                <div class="collapse projeto-description" id="collapseComidaAqui">
+                    <span>
+                        comida-aqui é um web app, para restaurantes é comércio.
+                    </span>
+                    <a href="https://comida-aqui.vercel.app/">
+                        <button>Abrir</button>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="container-projeto">
+                <div class="projeto">
+                    <img src="./assets/image/icon/projetos/calculadora.png">
+                    <span>Calculadora</span>
+                    <div class="projeto-button btn-calculadora" data-bs-toggle="collapse" href="#collapseCalculadora"
+                        aria-expanded="false" aria-controls="collapseCalculadora">
+                        <div class="projeto-info-calculadora">Info</div>
+                        <img class="projeto-img-calculadora" src="./assets/image/icon/close.png">
+                    </div>
+                </div>
+
+                <div class="collapse projeto-description" id="collapseCalculadora">
+                    <span>
+                        Calculadora padrão caso você não saiba quanto é 2 + 2.
+                    </span>
+                    <a href="https://calculadora-sandy-nine.vercel.app/">
+                        <button>Abrir</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-projeto">
+                <div class="projeto">
+                    <img src="./assets/image/icon/projetos/login.png">
+                    <span>Página Login</span>
+                    <div class="projeto-button btn-paginalogin" data-bs-toggle="collapse" href="#collapsepaginalogin"
+                        aria-expanded="false" aria-controls="collapsepaginalogin">
+                        <div class="projeto-info-paginalogin">Info</div>
+                        <img class="projeto-img-paginalogin" src="./assets/image/icon/close.png">
+                    </div>
+                </div>
+
+                <div class="collapse projeto-description" id="collapsepaginalogin">
+                    <span>
+                        Página de login, design totalmente único.
+                    </span>
+                    <a href="https://page-login-delta.vercel.app/">
+                        <button>Abrir</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-projeto">
+                <div class="projeto">
+                    <img src="./assets/image/icon/projetos/menu.png">
+                    <span>Menu</span>
+                    <div class="projeto-button btn-menu" data-bs-toggle="collapse" href="#collapsemenu"
+                        aria-expanded="false" aria-controls="collapsepaginalogin">
+                        <div class="projeto-info-menu">Info</div>
+                        <img class="projeto-img-menu" src="./assets/image/icon/close.png">
+                    </div>
+                </div>
+
+                <div class="collapse projeto-description" id="collapsemenu">
+                    <span>
+                        Menu ou cardapío online, feito para todo tipo de estabelecimento que faz refeições.
+                    </span>
+                    <a href="https://menu-to-restaurant.vercel.app/">
+                        <button>Abrir</button>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="contato">
+
+            <div class="titles">
+                <h1>Contato</h1>
+                <p>Essas são as plataformas para entrar em contato</p>
+            </div>
+
+            <div class="container-contatos">
+                <div class="send-email">
+                    <h2>Mande um email</h2>
+                    <form class="form-send-email" action="https://formsubmit.co/viniciosdeveloperweb@gmail.com"
+                        method="POST">
+                        <input type="text" placeholder="Nome">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="email" placeholder="Seu email">
+                        <textarea placeholder="Mensagem" style="resize: none" name="" id="" cols="30"
+                            rows="10"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+
+
+                <div class="other-contact">
+                    <h2>outros contato</h2>
+
+                    <div class="contatos">
+                        <img src="./assets/image/icon/contato/zap.png">
+                        <span><a href="https://wa.me/62995589232">(62) 99558-9232</a></span>
+                    </div>
+
+                    <div class="contatos">
+                        <img src="./assets/image/icon/contato/email.png">
+                        <span id="email-contato">viniciosdeveloperweb@gmail.com</span>
+                    </div>
+
+                    <div class="contatos">
+                        <img src="./assets/image/icon/contato/lk.png">
+                        <span><a href="https://www.linkedin.com/in/vinicios-barbosa-83b342243/">Linkedin</a></span>
+                    </div>
+
+                    <div class="contatos">
+                        <img src="./assets/image/icon/contato/github.png">
+                        <span><a href="https://github.com/Vini-io">GitHub</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>Copyright</span>
+        <img src="./assets/image/icon/c.png">
+        <span>Todos os direitos reservados.</span>
+
+
+    </footer>
+
+
+
+    <!-- scritp (BOOTSTRAP) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"> </script>
+
+    <script src="./scripts/app.js"> </script>
+
+</body>
+
+</html>
