@@ -155,9 +155,10 @@ dia = dia.getDate();
 
 
 if (dia > 0 && dia < 5) {
+    console.log("teste")
     document.querySelector(".head").innerHTML += `<link rel="icon" href="./assets/image/icon/logo1.png" type="image/png">`;
-    document.querySelector(".nav-left").innerHTML =+ `<img class="logo" src="./assets/image/icon/logo1.png">`
-    document.querySelector(".nav-left").innerHTML =+ `
+    document.querySelector(".nav-left").innerHTML = `<img class="logo" src="./assets/image/icon/logo1.png">`
+    document.querySelector(".nav-left").innerHTML += `
                                                         <ul class="lista">
                                                             <a href="#sobre">
                                                                 <li class="sobre">Sobre</li>
@@ -175,9 +176,10 @@ if (dia > 0 && dia < 5) {
 
 
 } else if (dia > 4 && dia < 9) {
+    console.log("outro")
     document.querySelector(".head").innerHTML += `<link rel="icon" href="./assets/image/icon/logo2.png" type="image/png">`;
-    document.querySelector(".nav-left").innerHTML =+ `<img class="logo" src="./assets/image/icon/logo2.png">`
-    document.querySelector(".nav-left").innerHTML =+ `
+    document.querySelector(".nav-left").innerHTML = `<img class="logo" src="./assets/image/icon/logo2.png">`
+    document.querySelector(".nav-left").innerHTML += `
                                                         <ul class="lista">
                                                             <a href="#sobre">
                                                                 <li class="sobre">Sobre</li>
@@ -196,8 +198,8 @@ if (dia > 0 && dia < 5) {
 
 } else if (dia > 8 && dia < 13) {
     document.querySelector(".head").innerHTML += `<link rel="icon" href="./assets/image/icon/logo3.png" type="image/png">`;
-    document.querySelector(".nav-left").innerHTML =+ `<img class="logo" src="./assets/image/icon/logo3.png">`
-    document.querySelector(".nav-left").innerHTML =+ `
+    document.querySelector(".nav-left").innerHTML += `<img class="logo" src="./assets/image/icon/logo3.png">`
+    document.querySelector(".nav-left").innerHTML += `
                                                         <ul class="lista">
                                                             <a href="#sobre">
                                                                 <li class="sobre">Sobre</li>
@@ -216,7 +218,7 @@ if (dia > 0 && dia < 5) {
 
 } else if (dia > 12 && dia < 17) {
     document.querySelector(".head").innerHTML += `<link rel="icon" href="./assets/image/icon/logo4.png" type="image/png">`;
-    document.querySelector(".nav-left").innerHTML = `<img class="logo" src="./assets/image/icon/logo4.png">`
+    document.querySelector(".nav-left").innerHTML += `<img class="logo" src="./assets/image/icon/logo4.png">`
     document.querySelector(".nav-left").innerHTML += `
                                                         <ul class="lista">
                                                             <a href="#sobre">
