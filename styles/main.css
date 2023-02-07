@@ -58,7 +58,6 @@ body {
 
 main {
     width: 100%;
-    /* padding-top: 130px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,8 +213,9 @@ main {
 #sobre {
     width: 80%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 270px;
+    padding-top: 220px;
     padding-bottom: 130px;
 }
 
@@ -223,7 +223,11 @@ main {
     margin-right: 3rem;
 }
 
+
 .info-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 18rem;
 }
 
@@ -800,6 +804,7 @@ footer>img {
     }
 
     .img-perfil {
+        margin-top: 30px;
         margin-right: 0;
     }
 
@@ -809,10 +814,10 @@ footer>img {
     }
 
     .info-sobre {
-        text-align: center;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
     #skill {
