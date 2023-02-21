@@ -440,9 +440,12 @@ main {
     translate: 0 -57px;
 }
 
+
+
+
 /* project comida aqui */
 
-.projeto-info-comidaAqui {
+.projeto-info {
     width: 100%;
     height: 100%;
     display: flex;
@@ -451,67 +454,13 @@ main {
     transition: .3s;
 }
 
-.projeto-img-comidaAqui {
+.projeto-img {
     position: relative;
     left: 22px;
     width: 50px;
     transition: .3s;
 }
 
-/* porject calculadora */
-
-.projeto-info-calculadora {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-}
-
-.projeto-img-calculadora {
-    position: relative;
-    left: 22px;
-    width: 50px;
-    transition: .3s;
-}
-
-/* project pagina login */
-
-
-.projeto-info-paginalogin {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-}
-
-.projeto-img-paginalogin {
-    position: relative;
-    left: 22px;
-    width: 50px;
-    transition: .3s;
-}
-
-/* project menu hub */
-
-.projeto-info-menu {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-}
-
-.projeto-img-menu {
-    position: relative;
-    left: 22px;
-    width: 50px;
-    transition: .3s;
-}
 
 
 /* selection (contato) */

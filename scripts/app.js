@@ -13,6 +13,10 @@ document.querySelector(".skill-design").addEventListener("click", () => {
 
 
 // animation project
+document.querySelector(".btn-jogoDaVelha").addEventListener("click", () => {
+    document.querySelector(".projeto-info-jogoDaVelha").classList.toggle("hidden-projeto-info");
+    document.querySelector(".projeto-img-jogoDaVelha").classList.toggle("show-projeto-img");
+})
 
 document.querySelector(".btn-comidaAqui").addEventListener("click", () => {
     document.querySelector(".projeto-info-comidaAqui").classList.toggle("hidden-projeto-info");
